@@ -1341,7 +1341,7 @@ namespace IMGUIZMO_NAMESPACE
 
                if (!hasTranslateOnAxis || gContext.mbUsing)
                {
-                  drawList->AddLine(baseSSpace, worldDirSSpace, colors[i + 1], 3.f, lineThickness);
+                  drawList->AddLine(baseSSpace, worldDirSSpace, colors[i + 1], lineThickness);
                }
                drawList->AddCircleFilled(worldDirSSpace, circleSize, colors[i + 1]);
             }
